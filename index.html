@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href ="css/custom-style.css">
+    <style>
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+        }
+      }
+      .flex-container {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="header">
+      <center>
+        <img id="header-img" src="https://i5.walmartimages.com/asr/ce190e40-ba7e-46b7-b7ad-be2d77281b27_1.b9ca7c50618e72b1f941b2768944df7e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"/>
+        <nav id="nav-bar">
+          <a class="nav-link" href="#learn-more">Learn More</a>
+          <a class="nav-link" href="#request-coupon">Request Coupon</a>
+          <a class="nav-link" href="#buy-at-online-store">Buy at Online Store</a>
+        </nav>
+      </center>
+    </header>
+    <section id="learn-more">
+      <center>
+        <h1>Buy Nine Inch Nails merchandise through official retailers. Go support the band officially even though it is 2 millionaires.</h1>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/pwjLcwbT-xE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+    </section>
+    <section id="request-coupon">
+      <center>
+        <h2>Request a Coupon (I dont have any either but I figured we'd ask)</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" placeholder="you@whatever.com" name="email"></input>
+          <input id="submit" type="submit"></input>
+        </form>
+      </center>
+    </section>
+    <section id="buy-at-online-store">
+      <center>
+        <div class="flex-container col-3">
+          <div><a href="https://www.discogs.com">Buy at Diskogs</a></div>
+          <div><a href="https://www.google.com/search?client=safari&rls=en&q=cd+store+near+me&ie=UTF-8&oe=UTF-8">Buy at a local CD store</a></div>
+          <div><a href="https://store.nin.com/collections/featured">Buy at store.nin.com</a></div>
+        </div>
+      </center>
+    </section>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
